@@ -1,0 +1,33 @@
+***SERVER LOGIN***
+
+*For CMD*
+username =ssh kotha@dltmyanmar.com (or) 157.230.240.154 (or) 137.184.248.101  (dltmyanmar.net)
+		  ssh wdf5445@dltmyanmar.com (or) 157.230.240.154 (or) 137.184.248.101
+password =datalandtechnology
+
+*For PUTTY*
+Host Name =dltmyanmar.com (or) 157.230.240.154 (or) 137.184.248.101
+port =22
+Login as =wdf2001
+password =datalandtechnology
+
+*For WINSCP*
+Host Name =dltmyanamr.com (or) 157.230.240.154 (or) 137.184.248.101
+username =wdf2001
+password =datalandtechnology
+COMMEND MENU(From top Left Corner) >> Open PUTTY
+********************************************************
+
+***DATABASE LOGIN***
+
+Method 1 >>
+mysql -uWDF2001 -p <enter>
+datalandtechnology
+
+Method 2 >>
+mysql -u WDF2001 -p <enter>
+datalandtechnology
+
+exit = exit
+********************************************************
+
