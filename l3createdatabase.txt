@@ -1,0 +1,31 @@
+=> CHECK DATABASES;
+    SHOW DATABASES;
+
+=>CREATE DATABASE
+                  (db name)
+  CREATE DATABASE wdf2001;
+
+=>DELETE DATABASE
+  DROP DATABASE wdf2001;
+
+=>CHOOSE DATABASE
+  USE wdf2001;
+
+=>CHECK CURRENT DATABASE
+  SELECT database();
+--------------------------------------
+
+=>Database Name
+  Can Create
+  **********
+
+  CREATE DATABASE myapps;
+  CREATE DATABASE myapps123;
+  CREATE DATABASE book_shop;
+
+  Can't Create
+  ************
+
+  CREATE DATABASE My App;
+  CREATE DATABASE 15457588;
+  CREATE DATABASE @#$%$%&*^;
